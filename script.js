@@ -7,8 +7,6 @@ getNotes().forEach(note => {
 	notes.insertBefore(noteValue, btn)
 })
 
-addNote()
-
 function createNoteEl(id, content) {
 	const element = document.createElement("textarea");
 	element.classList.add("note")
